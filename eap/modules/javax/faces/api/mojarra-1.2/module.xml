@@ -1,0 +1,17 @@
+<module xmlns="urn:jboss:module:1.8" name="javax.faces.api:mojarra-1.2">
+    <dependencies>
+        <module name="com.sun.jsf-impl:mojarra-1.2"/>
+        <module name="javax.enterprise.api" export="true"/>
+        <module name="javax.servlet.api" export="true"/>
+        <module name="javax.servlet.jsp.api" export="true"/>
+        <module name="javax.servlet.jstl.api" export="true"/>
+        <module name="javax.validation.api" export="true"/>
+        <module name="org.glassfish.javax.el" export="true"/>
+        <module name="javax.api"/>
+        <module name="javax.websocket.api"/>
+    </dependencies>
+
+    <resources>
+        <resource-root path="jsf-api-1.2.15.b01-redhat-12.jar"/>
+    </resources>
+</module>

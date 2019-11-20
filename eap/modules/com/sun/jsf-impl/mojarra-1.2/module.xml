@@ -1,0 +1,22 @@
+<module xmlns="urn:jboss:module:1.8" name="com.sun.jsf-impl:mojarra-1.2">
+    <properties>
+        <property name="jboss.api" value="private"/>
+    </properties>
+
+    <dependencies>
+        <module name="javax.faces.api:mojarra-1.2"/>
+        <module name="javaee.api"/>
+        <module name="javax.servlet.jstl.api"/>
+        <module name="org.apache.xerces" services="import"/>
+        <module name="org.apache.xalan" services="import"/>
+        <module name="org.jboss.weld.core"/>
+        <module name="org.jboss.weld.spi"/>
+        <module name="javax.xml.rpc.api"/>
+        <module name="javax.rmi.api"/>
+        <module name="org.omg.api"/>
+    </dependencies>
+
+    <resources>
+        <resource-root path="jsf-impl-1.2.15.b01-redhat-12.jar"/>
+    </resources>
+</module>
